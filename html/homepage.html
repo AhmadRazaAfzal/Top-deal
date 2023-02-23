@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com " defer></script>
 </head>
+
 <body>
     <header class="header">
         <div class="header-section">
@@ -416,7 +418,7 @@
 
                 </div>
             </div>
-            <div class="first-section-navbar relative group">
+            <div class="first-section-navbar relative group ">
                 <div>
                     <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -514,18 +516,50 @@
             </div>
         </div>
     </section>
-    <div class="grid grid-cols-8">
-        <div class="bg-[#F0FFF8]">
+    <div class="grid grid-cols-8 h-[50vh] relative">
+        <div class="bg-[#F0FFF8] col-span-5 relative">
+            <div class="absolute flex flex-col gap-4 left-40 top-[40%] translate-y-[-50%]">
+                <div>
+                    <h3 class="text-5xl font-bold">Get The Best <span class="text-[#219653] relative"> Deals
+                            <div class="absolute top-14 left-0">
+                                <svg width="140" height="7" viewBox="0 0 163 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 1.85345C53.1007 2.41874 105.241 2.0797 157.348 2.0797C157.494 2.0797 162.022 2.1338 162 2.14254C91.7042 5.08875 78.0986 5.38287 31.6127 6.85345C31.6127 6.85345 111.122 6.39601 146.127 6.26522"
+                                        stroke="#219653" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+
+
+                            </div>
+                        </span><br> Near By You!</h3>
+                </div>
+                <div>
+                    <p class="text-[#000000] font-medium">Explore nearby deals on map and buy deals to <br> enjoy
+                        quality food with your family</p>
+                </div>
+                <div class="bg-[#013D29] w-40 py-3 rounded-full flex items-center justify-center cursor-pointer ">
+                    <p class="text-white font-medium ">Explore</p>
+                </div>
+            </div>
+            <div class="absolute right-0 bottom-0">
+                <img src="../images/Group (1).png" alt="">
+
+            </div>
+        </div>
+        <div class="col-span-3 relative">
+            <img src="../images/Rectangle 5954.png" alt="" class="h-[500px] w-full object-cover">
+            <div
+                class="absolute bg-[#219653] px-6 py-6 rounded-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] cursor-pointer">
+                <svg width="40" height="40" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.3924 24.6169L28.4066 25.9897L26.3924 24.6169ZM39.6174 26.1572L40.895 24.0814L39.6174 26.1572ZM30.6101 22.0212L30.3387 19.5988L30.6101 22.0212ZM30.6101 47.9788L30.3387 50.4012L30.6101 47.9788ZM26.3924 45.3831L24.3783 46.756L26.3924 45.3831ZM47.4814 37.5957L45.2322 36.6562L47.4814 37.5957ZM47.4814 32.4043L45.2322 33.3438L47.4814 32.4043ZM65.0615 35C65.0615 51.6031 51.6021 65.0625 34.999 65.0625V69.9375C54.2945 69.9375 69.9365 54.2954 69.9365 35H65.0615ZM34.999 65.0625C18.396 65.0625 4.93652 51.6031 4.93652 35H0.0615232C0.0615232 54.2954 15.7036 69.9375 34.999 69.9375V65.0625ZM4.93652 35C4.93652 18.3969 18.396 4.9375 34.999 4.9375V0.0624998C15.7036 0.0624998 0.0615232 15.7046 0.0615232 35H4.93652ZM34.999 4.9375C51.6021 4.9375 65.0615 18.3969 65.0615 35H69.9365C69.9365 15.7046 54.2945 0.0624998 34.999 0.0624998V4.9375ZM27.6865 35C27.6865 32.053 27.6887 30.0014 27.8205 28.4701C27.9539 26.9197 28.1983 26.2952 28.4066 25.9897L24.3783 23.244C23.4431 24.616 23.1158 26.2813 22.9634 28.0521C22.8094 29.8421 22.8115 32.1432 22.8115 35H27.6865ZM40.895 24.0814C38.5801 22.6567 36.6958 21.4939 35.1464 20.7323C33.6139 19.9789 32.0182 19.4107 30.3387 19.5988L30.8815 24.4435C31.1366 24.415 31.6869 24.4638 32.9957 25.1072C34.2875 25.7423 35.9396 26.7559 38.3399 28.2331L40.895 24.0814ZM28.4066 25.9897C29.0233 25.0848 29.934 24.5497 30.8815 24.4435L30.3387 19.5988C27.9113 19.8708 25.7561 21.2225 24.3783 23.244L28.4066 25.9897ZM38.3399 41.7669C35.9396 43.2441 34.2875 44.2577 32.9957 44.8928C31.6869 45.5362 31.1366 45.585 30.8815 45.5565L30.3387 50.4012C32.0182 50.5893 33.6139 50.0211 35.1464 49.2677C36.6958 48.5061 38.5801 47.3433 40.895 45.9186L38.3399 41.7669ZM22.8115 35C22.8115 37.8568 22.8094 40.1579 22.9634 41.9479C23.1158 43.7187 23.4431 45.384 24.3783 46.756L28.4066 44.0103C28.1983 43.7048 27.9539 43.0803 27.8205 41.5299C27.6887 39.9986 27.6865 37.947 27.6865 35H22.8115ZM30.8815 45.5565C29.934 45.4503 29.0233 44.9152 28.4066 44.0103L24.3783 46.756C25.7561 48.7775 27.9112 50.1292 30.3387 50.4012L30.8815 45.5565ZM40.895 45.9186C43.211 44.4933 45.0963 43.336 46.4873 42.2885C47.8779 41.2412 49.0835 40.0846 49.7306 38.5351L45.2322 36.6562C45.0882 37.0011 44.7194 37.517 43.5546 38.3943C42.3901 39.2712 40.7391 40.2903 38.3399 41.7669L40.895 45.9186ZM38.3399 28.2331C40.7391 29.7097 42.3901 30.7288 43.5546 31.6057C44.7194 32.483 45.0882 32.9989 45.2322 33.3438L49.7306 31.4649C49.0835 29.9154 47.8779 28.7588 46.4873 27.7115C45.0963 26.664 43.211 25.5067 40.895 24.0814L38.3399 28.2331ZM49.7306 38.5351C50.6718 36.2817 50.6718 33.7183 49.7306 31.4649L45.2322 33.3438C45.6713 34.3949 45.6713 35.6051 45.2322 36.6562L49.7306 38.5351Z"
+                        fill="white" />
+                </svg>
+            </div>
+        </div>
+        <div>
 
         </div>
-        <div></div>
-    </div>
-
-
-
-
-
-    
 
 
 
@@ -535,6 +569,14 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+
+
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 </body>
+
 </html>
